@@ -12,3 +12,4 @@
 ![image](https://cdn.discordapp.com/attachments/1066717329288867840/1066721871216775258/image.png)
 
 * Zamanım olursa ticket başvuru gibi sistemleride eklerim.
+* Resimde kullanılan ip random bir sunucunundur.
