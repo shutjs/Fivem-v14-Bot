@@ -1,0 +1,27 @@
+{
+  "name": "shut",
+  "version": "1.0.0",
+  "description": "shut",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord bot",
+    "discord.js",
+    "v14",
+    "altyapı",
+    "gelişmiş",
+    "yourfriend"
+  ],
+  "author": "shut",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "fivereborn-query": "^1.0.4",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.4",
+    "string-similarity": "^4.0.4"
+  }
+}
