@@ -1,4 +1,4 @@
-# 10 Star Yeterli
+
 
 # Bottan Görüntüler:
 
