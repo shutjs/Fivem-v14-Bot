@@ -1,4 +1,4 @@
-const {
+⅞const {
   SlashCommandBuilder,
   ModalBuilder,
   ButtonBuilder,
@@ -24,7 +24,7 @@ module.exports = {
 
   async executePrefix(client, message, args) {
     const user = message.mentions.users.first() || message.author;
-    if (!message.member.roles.cache.has(PermissionsBitField.Flags.Administrator)) return message.channel.send('Bu Komutu Kullanmak İçin İznin Yok')
+    if (message.member.roles.cache.has(PermissionsBitField.Flags.Administrator)) return message.channel.send('Bu Komutu Kullanmak İçin İznin Yok')
       let aktif = new ButtonBuilder()
       .setCustomId('aktif')
       .setLabel(`Aktif Et`)
