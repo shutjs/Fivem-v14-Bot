@@ -23,7 +23,7 @@ module.exports = {
   },
 
   async executePrefix(client, message, args) {
-    if (!message.member.roles.cache.has(`${config.kayıtsız}`)) return message.channel.send('Bu Komutu Kullanmak İçin İznin Yok')
+    if (message.member.roles.cache.has(`${config.kayıtsız}`)) return message.channel.send('Bu Komutu Kullanmak İçin İznin Yok')
 
 
     const user = message.mentions.users.first() || message.author;
