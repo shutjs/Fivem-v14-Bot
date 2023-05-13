@@ -1,4 +1,4 @@
-⅞const {
+const {
   SlashCommandBuilder,
   ModalBuilder,
   ButtonBuilder,
